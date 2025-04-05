@@ -235,7 +235,7 @@ function App() {
         </h2>
         <div className="max-w-2xl mx-auto text-center space-y-4 font-bold">
           <p>
-            Whether you're just starting out or pushing for new goals, we are here for you. From beginners to advance, we help you build strength, flexibility, mobility, agility, & endurance to live your healthiest, happiest life.
+            Whether you're just starting out or pushing for new goals, we are here for you. From beginners to advance, we help you build strength, flexibility, mobility, & endurance to live your healthiest, happiest life.
 
           </p>
           <p>
@@ -332,7 +332,7 @@ function App() {
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-3xl mx-auto"
         >
           {[
-            "One on One Session", "Group Fitness Sessions", "Weekend Warrior Sessions", "Corporate Fitness Sessions"
+            "One on One Sessions", "Group Fitness Sessions", "Weekend Warrior Sessions", "Corporate Fitness Sessions"
           ].map((skill) => (
             <motion.div
               key={skill}
