@@ -490,7 +490,7 @@ function App() {
         viewport={{ once: true }}
         className="container mx-auto px-4 py-8 text-center text-gray-400"
       >
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} 1stFitForYou. All rights reserved.</p>
       </motion.footer>
     </div>
   );
