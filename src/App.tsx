@@ -114,7 +114,7 @@ function App() {
             </motion.a> */}
 
             <div className="hidden md:flex items-center space-x-8">
-              {['about', 'focus', 'fitness', 'contact'].map((item) => (
+              {['about', 'features', 'services', 'contact us'].map((item) => (
                 <motion.button
                   key={item}
                   whileHover={{ scale: 1.1 }}
@@ -143,7 +143,7 @@ function App() {
               exit={{ opacity: 0, height: 0 }}
               className="md:hidden py-4 space-y-4"
             >
-              {['about', 'focus', 'fitness', 'contact'].map((item) => (
+              {['about', 'features', 'services', 'contact us'].map((item) => (
                 <motion.button
                   key={item}
                   whileTap={{ scale: 0.95 }}
@@ -235,7 +235,7 @@ function App() {
         </h2>
         <div className="max-w-2xl mx-auto text-center space-y-4 font-bold">
           <p>
-            Whether you're just starting out or pushing for new goals, 1st Fit is here for you. From beginners to pros, we help you build strength, flexibility, mobility, agility, & endurance to live your healthiest, happiest life.
+            Whether you're just starting out or pushing for new goals, we are here for you. From beginners to advance, we help you build strength, flexibility, mobility, agility, & endurance to live your healthiest, happiest life.
 
           </p>
           <p>
@@ -271,10 +271,10 @@ function App() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        id="focus"
+        id="features"
         className="container mx-auto px-4 py-20"
       >
-        <h2 className="text-3xl font-bold mb-12 text-center">Our Focus</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">Features</h2>
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -320,7 +320,7 @@ function App() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        id="fitness"
+        id="services"
         className="container mx-auto px-4 py-16"
       >
         <h2 className="text-3xl font-bold mb-12 text-center">Fitness That Fits You</h2>
@@ -351,7 +351,7 @@ function App() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        id="contact"
+        id="contact us"
         className="container mx-auto px-4 py-16"
       >
         <h2 className="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
